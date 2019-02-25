@@ -1,5 +1,5 @@
 def prime?(dividend)
-  
+
   return false if dividend < 0
 
   divisors = []
