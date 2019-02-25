@@ -11,11 +11,7 @@ def prime?(dividend)
 
   tally = 0
   divisors.each do |divisor|
-    if dividend % divisor == 0
-      tally += 1
-    else
-      nil
-    end
+    tally += 1 if dividend % divisor == 0
   end
   tally == 2 ? true : false
 end
