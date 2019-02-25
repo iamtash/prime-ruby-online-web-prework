@@ -1,9 +1,6 @@
 def prime?(dividend)
-  if dividend < 0
-    return false
-  else
-    nil
-  end
+  
+  return false if dividend < 0
 
   divisors = []
   divisors_count = dividend
